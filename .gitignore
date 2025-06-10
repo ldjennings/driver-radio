@@ -29,3 +29,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# esp32 project
+**/build/
+sdkconfig*
