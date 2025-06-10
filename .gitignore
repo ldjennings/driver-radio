@@ -36,3 +36,4 @@ bom.*
 **/build/
 sdkconfig*
 **/.direnv/
+**/bom
