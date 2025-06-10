@@ -33,3 +33,4 @@ fp-info-cache
 # esp32 project
 **/build/
 sdkconfig*
+**/bom
