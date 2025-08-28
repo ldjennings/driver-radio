@@ -772,6 +772,18 @@
 		(color 0 0 0 0)
 		(uuid "a00f2cfa-51ca-4fac-80b1-1809f3a71fd0")
 	)
+	(no_connect
+		(at 129.54 83.82)
+		(uuid "213af220-80ae-49ea-82dc-5219a20ae721")
+	)
+	(no_connect
+		(at 129.54 86.36)
+		(uuid "5fe70e6a-6a60-41a5-8726-9d0d305378cf")
+	)
+	(no_connect
+		(at 129.54 101.6)
+		(uuid "c0037dc6-59ef-4e8a-83e9-c06553677558")
+	)
 	(wire
 		(pts
 			(xy 102.87 101.6) (xy 86.36 101.6)
@@ -811,16 +823,6 @@
 			(type default)
 		)
 		(uuid "1f3a8e34-1da8-4abe-953c-24f6d2de2302")
-	)
-	(wire
-		(pts
-			(xy 123.19 86.36) (xy 129.54 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cc3065b-aff9-45b6-b509-71f8d5fce8a6")
 	)
 	(wire
 		(pts
@@ -904,16 +906,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 83.82) (xy 129.54 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d9c7428-5294-4563-a939-aeff0c33e9d7")
-	)
-	(wire
-		(pts
 			(xy 123.19 93.98) (xy 129.54 93.98)
 		)
 		(stroke
@@ -931,16 +923,6 @@
 			(type default)
 		)
 		(uuid "d15c0856-c22a-4266-bd97-2b53782c4e16")
-	)
-	(wire
-		(pts
-			(xy 123.19 101.6) (xy 129.54 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db70ef61-58f1-491a-935c-0c645802c673")
 	)
 	(wire
 		(pts
@@ -992,39 +974,6 @@
 			(justify right)
 		)
 		(uuid "169e178e-eb14-4c7a-921e-d68687270c0d")
-	)
-	(hierarchical_label "SD_DATA1"
-		(shape bidirectional)
-		(at 123.19 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "421fe7f6-4570-4e65-b39c-8f7a4f9a93a8")
-	)
-	(hierarchical_label "SD_DATA3"
-		(shape bidirectional)
-		(at 123.19 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "48d94319-ed18-40f1-8b91-ff16789e444f")
-	)
-	(hierarchical_label "SD_DATA2"
-		(shape bidirectional)
-		(at 123.19 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "696820f9-cb73-4e7b-95d0-c97ff0df7cf1")
 	)
 	(hierarchical_label "SD_DATA0"
 		(shape bidirectional)
@@ -1379,7 +1328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a312247e-6960-466a-a3ad-9f3af3441ae3")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 90.17 92.7099 0)
 			(effects
 				(font
@@ -1442,7 +1391,7 @@
 		(instances
 			(project ""
 				(path "/1f94b0a1-b989-49dc-a3ab-12a0e728079d/a157da69-e8fe-4b49-9cb0-61544ea7d730"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)

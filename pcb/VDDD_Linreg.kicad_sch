@@ -11,6 +11,246 @@
 		(comment 1 "Designed By Liam Jennings")
 	)
 	(lib_symbols
+		(symbol "0_tlv70220pdbvr:TLV70220PDBVR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TLV70220PDBVR"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0.762 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TLV70220PDBVR"
+				(at 0.508 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "ICS-000521-00"
+				(at 0 14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TLV70220PDBVR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DBV5 DBV5-M DBV5-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV70220PDBVR_0_1"
+				(polyline
+					(pts
+						(xy -11.43 7.62) (xy -11.43 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.43 -7.62) (xy 11.43 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 7.62) (xy -11.43 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -8.255) (xy 11.43 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -19.05 2.54 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -2.54 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 2.54 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -2.54 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV70220PDBVR_1_1"
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -150,264 +390,44 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ev24:TLV70220PDBVR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 27.94 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TLV70220PDBVR"
-				(at 27.94 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "DBV5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "TLV70220PDBVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TLV70220PDBVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DBV5 DBV5-M DBV5-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV70220PDBVR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 48.26 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.26 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.26 -10.16) (xy 48.26 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 7.62)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 55.88 0 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 55.88 -2.54 180)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 55.88 -5.08 180)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
-		(at 109.22 121.92)
+		(at 118.11 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3764d914-0d75-41e0-8f06-2da371819052")
 	)
 	(junction
-		(at 109.22 88.9)
+		(at 118.11 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5652ee81-5ea1-4afb-ad1f-827db9a199e9")
 	)
 	(junction
-		(at 114.3 88.9)
+		(at 147.32 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d6fb6a3-1737-40d3-8772-03f4300ffed7")
+		(uuid "5eb58450-af49-4482-8ea1-73d0940065d4")
 	)
 	(junction
-		(at 119.38 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62100cb4-261b-4c0e-99fd-1edd4db0f149")
-	)
-	(junction
-		(at 185.42 88.9)
+		(at 176.53 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cbc4937-383b-4061-8dc9-8fa1521ec464")
 	)
+	(junction
+		(at 121.92 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac4b2259-d96b-4e23-8983-5aaee8dc801e")
+	)
 	(no_connect
-		(at 175.26 91.44)
-		(uuid "f6378083-acd9-461e-9276-2ed189bf0871")
+		(at 166.37 93.98)
+		(uuid "a2db31c9-972c-4521-b329-f962b0dca4c9")
 	)
 	(wire
 		(pts
-			(xy 109.22 88.9) (xy 114.3 88.9)
+			(xy 118.11 88.9) (xy 121.92 88.9)
 		)
 		(stroke
 			(width 0)
@@ -417,7 +437,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 88.9) (xy 185.42 88.9)
+			(xy 166.37 88.9) (xy 176.53 88.9)
 		)
 		(stroke
 			(width 0)
@@ -427,17 +447,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 93.98) (xy 175.26 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25f871c0-2df1-4420-8a77-b0898915ef6f")
-	)
-	(wire
-		(pts
-			(xy 109.22 110.49) (xy 109.22 121.92)
+			(xy 118.11 110.49) (xy 118.11 121.92)
 		)
 		(stroke
 			(width 0)
@@ -447,47 +457,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 104.14) (xy 177.8 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "335158bd-40e1-495c-b56e-9b437afd9893")
-	)
-	(wire
-		(pts
-			(xy 114.3 88.9) (xy 114.3 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3945aaed-3a77-4872-a494-4a2e6833e485")
-	)
-	(wire
-		(pts
-			(xy 109.22 121.92) (xy 119.38 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4d77d4-b765-4a0c-b604-22ede5aa9700")
-	)
-	(wire
-		(pts
-			(xy 119.38 91.44) (xy 119.38 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73f0bcc5-2ca7-4073-a6bd-0fe892b7c5eb")
-	)
-	(wire
-		(pts
-			(xy 100.33 121.92) (xy 109.22 121.92)
+			(xy 109.22 121.92) (xy 118.11 121.92)
 		)
 		(stroke
 			(width 0)
@@ -497,7 +467,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 110.49) (xy 185.42 121.92)
+			(xy 176.53 110.49) (xy 176.53 121.92)
 		)
 		(stroke
 			(width 0)
@@ -507,17 +477,37 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 104.14) (xy 177.8 93.98)
+			(xy 147.32 121.92) (xy 176.53 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "945c64c2-578d-4cf5-a272-030d7c7841fa")
+		(uuid "98a14426-d5e6-4634-a5af-9aa9c06c8833")
 	)
 	(wire
 		(pts
-			(xy 109.22 102.87) (xy 109.22 88.9)
+			(xy 121.92 88.9) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4a4d92-35ce-4b11-a938-c0a6cbaf20e7")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.9) (xy 128.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adffc379-c5b2-48e8-b542-34f652a45ff4")
+	)
+	(wire
+		(pts
+			(xy 118.11 102.87) (xy 118.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -527,7 +517,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 88.9) (xy 196.85 88.9)
+			(xy 147.32 106.68) (xy 147.32 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45ed173-f1e4-455b-8706-a047621eddf7")
+	)
+	(wire
+		(pts
+			(xy 176.53 88.9) (xy 187.96 88.9)
 		)
 		(stroke
 			(width 0)
@@ -537,7 +537,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 88.9) (xy 109.22 88.9)
+			(xy 109.22 88.9) (xy 118.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +547,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 121.92) (xy 119.38 121.92)
+			(xy 118.11 121.92) (xy 147.32 121.92)
 		)
 		(stroke
 			(width 0)
@@ -557,17 +557,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 88.9) (xy 119.38 88.9)
+			(xy 121.92 93.98) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f720400e-5602-4e1d-ab87-b4ae66575f59")
+		(uuid "d0bece30-2d1a-446f-b4ae-2501cadbf7f5")
 	)
 	(wire
 		(pts
-			(xy 185.42 102.87) (xy 185.42 88.9)
+			(xy 176.53 102.87) (xy 176.53 88.9)
 		)
 		(stroke
 			(width 0)
@@ -577,7 +577,7 @@
 	)
 	(hierarchical_label "Vout"
 		(shape output)
-		(at 196.85 88.9 0)
+		(at 187.96 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -588,7 +588,7 @@
 	)
 	(hierarchical_label "Vin"
 		(shape input)
-		(at 100.33 88.9 180)
+		(at 109.22 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -599,7 +599,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape output)
-		(at 100.33 121.92 180)
+		(at 109.22 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -609,105 +609,8 @@
 		(uuid "efb5c5bd-00ec-4105-bf5c-ab062854b3ae")
 	)
 	(symbol
-		(lib_id "ev24:TLV70220PDBVR")
-		(at 119.38 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "189b5186-c4e1-4c87-841e-34d81cf868a4")
-		(property "Reference" "U3"
-			(at 147.32 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV70220PDBVR"
-			(at 147.32 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TLV70220PDBVR"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "ICS-000521-00"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "afa5d62b-9d1a-4feb-82d2-0b60e8e1899a")
-		)
-		(pin "2"
-			(uuid "180eee81-c292-4259-96e8-355e43c3e46a")
-		)
-		(pin "3"
-			(uuid "93380e40-567c-4ec9-8120-16e505611e88")
-		)
-		(pin "4"
-			(uuid "2e5a52b9-f93b-49e6-9305-3558f4e45769")
-		)
-		(pin "1"
-			(uuid "42a17f80-366c-4683-ace6-bf35758f287f")
-		)
-		(instances
-			(project "driver-radio"
-				(path "/1f94b0a1-b989-49dc-a3ab-12a0e728079d/63e1450f-511c-498d-8af2-46d3e4c5747c/7884e87b-9871-4f13-84a4-4243048f66d6"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 109.22 106.68 0)
+		(at 118.11 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -717,7 +620,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf6aef0d-bbe1-41c7-9d8a-8a8e872d8e41")
 		(property "Reference" "C8"
-			(at 105.41 105.4099 0)
+			(at 114.3 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +629,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 105.41 107.9499 0)
+			(at 114.3 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +638,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 108.2548 110.49 0)
+			(at 117.1448 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 106.68 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +656,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 106.68 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,7 +665,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 109.22 106.68 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,7 +674,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 109.22 106.68 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -780,7 +683,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 109.22 106.68 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -789,7 +692,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 109.22 106.68 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,7 +701,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 109.22 106.68 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +710,7 @@
 			)
 		)
 		(property "IPN" "CAP-000031-00"
-			(at 109.22 106.68 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,7 +735,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 185.42 106.68 0)
+		(at 176.53 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -842,7 +745,7 @@
 		(fields_autoplaced yes)
 		(uuid "e25ed856-b4b3-4cb4-8393-784c934b2264")
 		(property "Reference" "C18"
-			(at 189.23 105.4099 0)
+			(at 180.34 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +754,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 189.23 107.9499 0)
+			(at 180.34 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +763,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 184.4548 110.49 0)
+			(at 175.5648 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +772,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 106.68 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +781,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 185.42 106.68 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +790,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 185.42 106.68 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +799,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 185.42 106.68 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,7 +808,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 185.42 106.68 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,7 +817,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 185.42 106.68 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +826,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 185.42 106.68 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +835,7 @@
 			)
 		)
 		(property "IPN" "CAP-000030-00"
-			(at 185.42 106.68 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,6 +853,103 @@
 			(project "driver-radio"
 				(path "/1f94b0a1-b989-49dc-a3ab-12a0e728079d/63e1450f-511c-498d-8af2-46d3e4c5747c/7884e87b-9871-4f13-84a4-4243048f66d6"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_tlv70220pdbvr:TLV70220PDBVR")
+		(at 147.32 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5e5d1eb-2dd5-4abc-b6e1-69c4b2886f17")
+		(property "Reference" "U3"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV70220PDBVR"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 148.082 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TLV70220PDBVR"
+			(at 147.828 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "ICS-000521-00"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b0b1980b-2793-4ae7-81ac-cb4d98ef3303")
+		)
+		(pin "4"
+			(uuid "17ac0a75-2265-466f-835b-7acab507bb70")
+		)
+		(pin "3"
+			(uuid "b6680e6d-e33d-47d2-89e7-922e16223d5d")
+		)
+		(pin "2"
+			(uuid "2ba9d65e-2505-4d76-9fdb-e4cae5afda3d")
+		)
+		(pin "1"
+			(uuid "5efbcdea-ed00-42d3-a00f-159d39f91bf5")
+		)
+		(instances
+			(project ""
+				(path "/1f94b0a1-b989-49dc-a3ab-12a0e728079d/63e1450f-511c-498d-8af2-46d3e4c5747c/7884e87b-9871-4f13-84a4-4243048f66d6"
+					(reference "U3")
 					(unit 1)
 				)
 			)
