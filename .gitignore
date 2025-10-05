@@ -37,3 +37,5 @@ bom.*
 sdkconfig*
 **/.direnv/
 **/bom
+pcb/production/*
+pcb/fabrication-toolkit-options.json

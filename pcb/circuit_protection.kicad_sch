@@ -1041,6 +1041,16 @@
 		)
 		(uuid "5dd6ba34-93bc-40e6-b9ac-283728676a7d")
 	)
+	(text "Emergency power jumper for when I \nimmediately realize I fucked something up"
+		(exclude_from_sim no)
+		(at 86.868 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c4204ff-da5d-4ceb-9484-2cf3f447f7bb")
+	)
 	(junction
 		(at 111.76 48.26)
 		(diameter 0)
@@ -1108,6 +1118,12 @@
 		(uuid "b1498f77-1c45-41cf-acd3-b95297248ae1")
 	)
 	(junction
+		(at 55.88 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba51c062-2aae-4343-a0f3-28eb69fbfacc")
+	)
+	(junction
 		(at 53.34 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1124,12 +1140,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0989d5d-a7aa-4cf4-a80a-e67a76e4ec7f")
-	)
-	(junction
-		(at 60.96 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7cfd3d4-8fce-4a39-9647-b15762f16a1d")
 	)
 	(junction
 		(at 41.91 38.1)
@@ -1259,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 22.86) (xy 82.55 22.86)
+			(xy 55.88 22.86) (xy 82.55 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1629,16 +1639,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 38.1) (xy 66.04 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1ece409-2853-4022-90ab-403a10afb176")
-	)
-	(wire
-		(pts
 			(xy 123.19 53.34) (xy 123.19 58.42)
 		)
 		(stroke
@@ -1649,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 38.1) (xy 60.96 22.86)
+			(xy 55.88 38.1) (xy 55.88 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 38.1) (xy 60.96 38.1)
+			(xy 53.34 38.1) (xy 55.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1676,6 +1676,16 @@
 			(type default)
 		)
 		(uuid "f9a440e5-b81f-4b7b-a56a-6f8f78a4847b")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 66.04 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe04f892-81da-42ee-9fcc-b220e024d498")
 	)
 	(table
 		(column_count 3)

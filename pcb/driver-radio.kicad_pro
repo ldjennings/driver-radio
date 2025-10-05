@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.15,
-          "width": 0.3
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -140,7 +140,7 @@
         "min_track_width": 0.1016,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -676,6 +676,12 @@
       ],
       "/Codec/VDDD": [
         "Power"
+      ],
+      "/MCU/ESP32_RF_RX": [
+        "UART Signaling"
+      ],
+      "/MCU/ESP32_RF_TX": [
+        "UART Signaling"
       ],
       "/MCU/ESP32_RX": [
         "UART Signaling"

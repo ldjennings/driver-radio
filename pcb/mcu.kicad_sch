@@ -1616,6 +1616,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 106.68) (xy 205.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe0b394-d9ff-4518-9e29-a4f3e85f1cb5")
+	)
+	(wire
+		(pts
 			(xy 144.78 55.88) (xy 144.78 53.34)
 		)
 		(stroke
@@ -1626,16 +1636,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 91.44) (xy 205.74 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5107349f-5a56-44f7-a9d0-2cc05e77f0ab")
-	)
-	(wire
-		(pts
 			(xy 165.1 45.72) (xy 165.1 41.91)
 		)
 		(stroke
@@ -1643,6 +1643,16 @@
 			(type default)
 		)
 		(uuid "5316cbe7-3c90-4404-9fba-7471d2f691bd")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 205.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548c86e0-af6a-475d-8996-6fca9f9cd26d")
 	)
 	(wire
 		(pts
@@ -1683,6 +1693,16 @@
 			(type default)
 		)
 		(uuid "6b302612-9d98-495d-8952-0474d4a86213")
+	)
+	(wire
+		(pts
+			(xy 151.13 119.38) (xy 205.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d72a693-c94b-4be5-9532-b9a63eabc750")
 	)
 	(wire
 		(pts
@@ -2054,7 +2074,7 @@
 		)
 		(uuid "fda9322c-c5b0-4b25-bfb2-9c539fd10349")
 	)
-	(hierarchical_label "RF_TX"
+	(hierarchical_label "ESP32_RF_TX"
 		(shape output)
 		(at 182.88 104.14 0)
 		(effects
@@ -2098,6 +2118,17 @@
 		)
 		(uuid "22a37cb2-10f8-46d8-b923-8f23c5b5512e")
 	)
+	(hierarchical_label "IS_RADIO_RECIEVING"
+		(shape input)
+		(at 205.74 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c806a07-c390-42dc-b7d5-4575c3659a32")
+	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
 		(at 194.31 114.3 0)
@@ -2130,17 +2161,6 @@
 			(justify left)
 		)
 		(uuid "42371957-ee71-47c8-8df0-64478fca641b")
-	)
-	(hierarchical_label "RADIO_STATUS"
-		(shape input)
-		(at 205.74 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "491a49a0-8f94-4652-8d89-f7b3f3fc803b")
 	)
 	(hierarchical_label "ESP32_RX"
 		(shape input)
@@ -2175,17 +2195,6 @@
 		)
 		(uuid "7742184b-43a4-46e3-898a-bc92f5840dcb")
 	)
-	(hierarchical_label "MAIN_LOOP"
-		(shape output)
-		(at 205.74 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "80e9a960-e456-4e33-8af8-dbc45f2d3360")
-	)
 	(hierarchical_label "I2S_SDOUT"
 		(shape output)
 		(at 170.18 111.76 0)
@@ -2208,6 +2217,17 @@
 		)
 		(uuid "8490c007-9fd8-4216-b3ad-52d85f830054")
 	)
+	(hierarchical_label "WARNING"
+		(shape output)
+		(at 205.74 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e64702a-0aad-4f9a-af0f-3f2137037ded")
+	)
 	(hierarchical_label "SD_CLK"
 		(shape output)
 		(at 158.75 96.52 0)
@@ -2218,17 +2238,6 @@
 			(justify left)
 		)
 		(uuid "989d843b-e420-408d-a7bf-ac0be3f61706")
-	)
-	(hierarchical_label "WARNING"
-		(shape output)
-		(at 205.74 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9ad4475f-a8e1-46e4-b448-e005bec96f94")
 	)
 	(hierarchical_label "I2S_SDIN"
 		(shape input)
@@ -2241,7 +2250,29 @@
 		)
 		(uuid "9eb8ec3a-33e3-4927-970f-853fa540bae7")
 	)
-	(hierarchical_label "RF_RX"
+	(hierarchical_label "CAR_HEARTBEAT"
+		(shape output)
+		(at 205.74 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1b723e0-4ccc-42c0-954d-13ecc19c1a79")
+	)
+	(hierarchical_label "MAIN_LOOP"
+		(shape output)
+		(at 205.74 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6c5144e-9c53-449d-a6ff-9d20a8c84ef3")
+	)
+	(hierarchical_label "ESP32_RF_RX"
 		(shape input)
 		(at 182.88 101.6 0)
 		(effects
@@ -2262,6 +2293,17 @@
 			(justify left)
 		)
 		(uuid "c1e5e4e6-5871-47d3-b76c-0be852df0695")
+	)
+	(hierarchical_label "FAULT"
+		(shape output)
+		(at 205.74 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb6505de-7942-4bd4-88b9-b52e73894f76")
 	)
 	(hierarchical_label "I2S_BCLK"
 		(shape output)
@@ -2285,31 +2327,9 @@
 		)
 		(uuid "d6b778ec-be39-44ed-8d32-04ca2382db19")
 	)
-	(hierarchical_label "CAR_HEARTBEAT"
-		(shape output)
-		(at 205.74 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0fd5c12-4c63-4c7c-bd61-28a94030bbb2")
-	)
-	(hierarchical_label "FAULT"
-		(shape output)
-		(at 205.74 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9a7b61c-5889-41a5-bc52-59f1bad40514")
-	)
 	(hierarchical_label "PTT"
 		(shape output)
-		(at 205.74 114.3 0)
+		(at 205.74 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)

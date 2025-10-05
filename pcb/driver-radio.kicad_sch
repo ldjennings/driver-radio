@@ -4370,7 +4370,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 81.28 97.79 270)
+		(at 81.28 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4378,7 +4378,7 @@
 		(dnp no)
 		(uuid "249f6323-3520-41c7-a9a2-4c6db67fbdf6")
 		(property "Reference" "R12"
-			(at 79.375 99.695 90)
+			(at 79.375 75.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4387,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 79.375 102.235 90)
+			(at 79.375 78.105 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4396,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 97.79 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 97.79 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4414,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 81.28 97.79 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4423,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 81.28 97.79 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4432,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 81.28 97.79 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4441,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 81.28 97.79 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4450,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 81.28 97.79 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4459,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 81.28 97.79 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4468,7 @@
 			)
 		)
 		(property "IPN" "RES-000545-00"
-			(at 81.28 97.79 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GRN"
 			(at 71.4375 92.0749 0)
 			(effects
 				(font
@@ -5875,7 +5875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 74.93 85.09 0)
 			(effects
 				(font
@@ -5893,7 +5893,52 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "IPN" "LED-000534-00"
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 74.93 85.09 0)
 			(effects
 				(font
@@ -6348,7 +6393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "YLW"
 			(at 71.4375 80.6449 0)
 			(effects
 				(font
@@ -6366,7 +6411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 74.93 73.66 0)
 			(effects
 				(font
@@ -6384,7 +6429,52 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "IPN" "DIO-000505-00"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 74.93 73.66 0)
 			(effects
 				(font
@@ -6913,7 +7003,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 81.28 73.66 270)
+		(at 81.28 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6921,7 +7011,7 @@
 		(dnp no)
 		(uuid "d00c78a3-fb51-416f-9ea1-b986e3c60049")
 		(property "Reference" "R10"
-			(at 79.375 75.565 90)
+			(at 79.375 99.695 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +7020,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 79.375 78.105 90)
+			(at 79.375 102.235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +7029,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 73.66 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +7038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 73.66 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,7 +7047,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 81.28 73.66 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6966,7 +7056,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 81.28 73.66 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,7 +7065,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 81.28 73.66 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6984,7 +7074,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 81.28 73.66 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,7 +7083,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 81.28 73.66 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,7 +7092,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 81.28 73.66 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,7 +7101,7 @@
 			)
 		)
 		(property "IPN" "RES-000545-00"
-			(at 81.28 73.66 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7123,7 +7213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "BLU"
 			(at 71.4375 104.7749 0)
 			(effects
 				(font
@@ -7141,7 +7231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 74.93 97.79 0)
 			(effects
 				(font
@@ -7159,7 +7249,52 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "IPN" "DIO-000160-00"
+			(at 74.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 74.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 74.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 74.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 74.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 74.93 97.79 0)
 			(effects
 				(font
@@ -7403,7 +7538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 71.4375 116.2049 0)
 			(effects
 				(font
@@ -7421,7 +7556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 74.93 109.22 0)
 			(effects
 				(font
@@ -7439,7 +7574,52 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "IPN" "DIO-000152-00"
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 74.93 109.22 0)
 			(effects
 				(font
@@ -7982,27 +8162,7 @@
 				)
 			)
 		)
-		(pin "RF_TX" output
-			(at 137.16 53.34 0)
-			(uuid "23e05b2b-d487-4d72-8a68-cd70f4f96b4f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RF_RX" input
-			(at 137.16 57.15 0)
-			(uuid "c49b0e55-4a23-4c72-9ffd-b9834fc3e743")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RADIO_STATUS" input
+		(pin "IS_RADIO_RECIEVING" input
 			(at 137.16 60.96 0)
 			(uuid "fcc76129-1b68-40e1-be8e-c324ddcf4a7d")
 			(effects
@@ -8240,6 +8400,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "ESP32_RF_RX" input
+			(at 137.16 57.15 0)
+			(uuid "95f8b902-7707-4980-aba9-e45003296175")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32_RF_TX" output
+			(at 137.16 53.34 0)
+			(uuid "bb5f6734-075d-4417-bfe2-9853fe128508")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
