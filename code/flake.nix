@@ -25,7 +25,7 @@
 
   inputs = {
 
-    nixpkgs.url = "nixpkgs/nixos-unstable";  # TODO: pin this once a stable version has been reached
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
 
     flake-utils.url = "github:numtide/flake-utils";
 
