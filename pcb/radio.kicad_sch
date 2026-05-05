@@ -3037,7 +3037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01294d81-6233-422f-ac54-4db85bb5dd9b")
-		(property "Reference" "FL?"
+		(property "Reference" "FL1"
 			(at 184.15 69.85 0)
 			(effects
 				(font
@@ -3117,7 +3117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ab273b3-d9f8-4662-9500-ce528756404f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR021"
 			(at 81.28 83.82 0)
 			(effects
 				(font
@@ -3188,7 +3188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11722eca-b0cd-44ba-8dcc-87f2cefbbf6f")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 63.754 69.596 0)
 			(effects
 				(font
@@ -3273,7 +3273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a3d0440-2b8e-4f6d-8c15-9823084804d9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR022"
 			(at 90.17 115.57 0)
 			(effects
 				(font
@@ -3344,7 +3344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4aad8038-9644-4050-985d-b68d50d213b0")
-		(property "Reference" "C?"
+		(property "Reference" "C15"
 			(at 92.456 69.596 0)
 			(effects
 				(font
@@ -3429,7 +3429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77261041-4f6e-4f7e-a284-c0a37a92a162")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR031"
 			(at 134.62 121.92 0)
 			(effects
 				(font
@@ -3500,7 +3500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0ea3553-2ab0-4bfd-bc87-a3756089879e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR025"
 			(at 110.49 66.04 0)
 			(effects
 				(font
@@ -3571,7 +3571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b49cfecb-cd7c-47f8-9362-ff5fed9bac00")
-		(property "Reference" "C?"
+		(property "Reference" "C14"
 			(at 83.566 69.596 0)
 			(effects
 				(font
@@ -3655,7 +3655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc5113d6-a696-427a-9aa7-f3bd5d692598")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR035"
 			(at 184.15 102.87 0)
 			(effects
 				(font
@@ -3726,7 +3726,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "cef7efbb-13fc-435b-b949-4b1b0ed46c45")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 92.202 104.1399 0)
 			(effects
 				(font
@@ -3855,7 +3855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3c30553-9c33-4b99-944e-a736d738612e")
-		(property "Reference" "C?"
+		(property "Reference" "C13"
 			(at 73.914 69.596 0)
 			(effects
 				(font
@@ -3940,7 +3940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f13643bb-1288-4fc8-86ad-1d863cb6d195")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 134.62 60.96 0)
 			(effects
 				(font
@@ -3956,7 +3956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_SA868:sa868"
+		(property "Footprint" "VHF_UHF_Modules:VHF_UHF_Module_generic"
 			(at 132.08 81.28 0)
 			(effects
 				(font

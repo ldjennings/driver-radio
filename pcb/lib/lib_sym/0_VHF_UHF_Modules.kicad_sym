@@ -346,11 +346,21 @@
 				(hide yes)
 			)
 		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRA818V/DORJI/view-part/?ref=snap"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "SA818V"
 		(extends "DRA818V")
 		(property "Reference" "U"
-			(at -10.1661 11.9459 0)
+			(at -10.16 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -448,7 +458,7 @@
 	(symbol "SA868V"
 		(extends "SA818V")
 		(property "Reference" "U"
-			(at -10.1661 11.9459 0)
+			(at -10.16 13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,7 +507,7 @@
 	(symbol "SA868U"
 		(extends "SA868V")
 		(property "Reference" "U"
-			(at -10.1661 11.9459 0)
+			(at -10.16 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)

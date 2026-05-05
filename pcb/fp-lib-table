@@ -3,4 +3,5 @@
   (lib (name "0_SA868")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_SA868.pretty")(options "")(descr ""))
   (lib (name "0_tps259474arpwr")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_tps259474arpwr.pretty")(options "")(descr ""))
   (lib (name "0_tp-ev24-nobacksilk")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_tp-ev24-nobacksilk.pretty")(options "")(descr ""))
+  (lib (name "VHF_UHF_Modules")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/VHF_UHF_Modules.pretty")(options "")(descr ""))
 )
