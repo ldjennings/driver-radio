@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.62,
-          "width": 0.56
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -632,179 +632,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/BOOF_PWR": [
-        "Power"
-      ],
-      "/CAN Transciever/CANH": [
-        "CAN"
-      ],
-      "/CAN Transciever/CANL": [
-        "CAN"
-      ],
-      "/CAN Transciever/CAN_RX": [
-        "CAN"
-      ],
-      "/CAN Transciever/CAN_TX": [
-        "CAN"
-      ],
-      "/Codec/AUDIO_IN": [
-        "Analog Sound"
-      ],
-      "/Codec/AUDIO_OUT": [
-        "Analog Sound"
-      ],
-      "/Codec/I2C_CLK": [
-        "I2C"
-      ],
-      "/Codec/I2C_SDA": [
-        "I2C"
-      ],
-      "/Codec/I2S_BCLK": [
-        "I2S"
-      ],
-      "/Codec/I2S_LRC": [
-        "I2S"
-      ],
-      "/Codec/I2S_MCLK": [
-        "I2S"
-      ],
-      "/Codec/I2S_SDIN": [
-        "I2S"
-      ],
-      "/Codec/I2S_SDOUT": [
-        "I2S"
-      ],
-      "/Codec/VDDD": [
-        "Power"
-      ],
-      "/MCU/ESP32_RF_RX": [
-        "UART Signaling"
-      ],
-      "/MCU/ESP32_RF_TX": [
-        "UART Signaling"
-      ],
-      "/MCU/ESP32_RX": [
-        "UART Signaling"
-      ],
-      "/MCU/ESP32_TX": [
-        "UART Signaling"
-      ],
-      "/MCU/RF_RX": [
-        "UART Signaling"
-      ],
-      "/MCU/RF_TX": [
-        "UART Signaling"
-      ],
-      "/MCU/SD_CLK": [
-        "SD Clock"
-      ],
-      "/MCU/SD_CMD": [
-        "SD Signaling"
-      ],
-      "/MCU/SD_DATA0": [
-        "SD Signaling"
-      ],
-      "/MCU/SD_DATA1": [
-        "SD Signaling"
-      ],
-      "/MCU/SD_DATA2": [
-        "SD Signaling"
-      ],
-      "/MCU/SD_DATA3": [
-        "SD Signaling"
-      ],
-      "/Radio Module/ANT": [
-        "RF"
-      ],
-      "/Radio Module/AUDIO_IN": [
-        "Analog Sound"
-      ],
-      "/Radio Module/AUDIO_OUT": [
-        "Analog Sound"
-      ],
-      "Net-(C10-Pad2)": [
-        "Analog Sound"
-      ],
-      "Net-(C12-Pad2)": [
-        "Analog Sound"
-      ],
-      "Net-(C4-Pad2)": [
-        "Analog Sound"
-      ],
-      "Net-(C6-Pad2)": [
-        "Analog Sound"
-      ],
-      "Net-(C8-Pad2)": [
-        "Analog Sound"
-      ],
-      "Net-(F1-Pad1)": [
-        "Power"
-      ],
-      "Net-(FL1-IN)": [
-        "RF"
-      ],
-      "Net-(FL1-OUT)": [
-        "RF"
-      ],
-      "Net-(J1-D+-PadA6)": [
-        "USB Signaling"
-      ],
-      "Net-(J1-D--PadA7)": [
-        "USB Signaling"
-      ],
-      "Net-(R12-Pad2)": [
-        "Analog Sound"
-      ],
-      "Net-(U2-D+)": [
-        "USB Signaling"
-      ],
-      "Net-(U2-D-)": [
-        "USB Signaling"
-      ],
-      "Net-(U2-LINEIN_L)": [
-        "Analog Sound"
-      ],
-      "Net-(U2-LINEOUT_L)": [
-        "Analog Sound"
-      ],
-      "Net-(U2-VAG)": [
-        "Power"
-      ],
-      "Net-(U3-D+)": [
-        "USB Signaling"
-      ],
-      "Net-(U3-D-)": [
-        "USB Signaling"
-      ],
-      "Net-(U3-LINEIN_L)": [
-        "Analog Sound"
-      ],
-      "Net-(U3-LINEOUT_L)": [
-        "Analog Sound"
-      ],
-      "Net-(U3-VAG)": [
-        "Power"
-      ],
-      "Net-(U4-LINEIN_L)": [
-        "Analog Sound"
-      ],
-      "Net-(U4-LINEOUT_L)": [
-        "Analog Sound"
-      ],
-      "Net-(U4-VAG)": [
-        "Power"
-      ],
-      "Net-(U5-VAG)": [
-        "Power"
-      ],
-      "unconnected-(J5-In-Pad1)": [
-        "RF"
-      ],
-      "unconnected-(U5-RF{slash}ANT-Pad12)": [
-        "RF"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -852,7 +680,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "driver-radio.step",
       "svg": "",
       "vrml": ""
     },
@@ -1188,7 +1016,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -1202,40 +1030,8 @@
   },
   "sheets": [
     [
-      "1f94b0a1-b989-49dc-a3ab-12a0e728079d",
+      "4d7d36d8-5f68-407e-bb89-5b0e6e399617",
       "Root"
-    ],
-    [
-      "7a47ba65-9ab2-497d-9c00-fb2900de4724",
-      "MCU"
-    ],
-    [
-      "63e1450f-511c-498d-8af2-46d3e4c5747c",
-      "Codec"
-    ],
-    [
-      "7884e87b-9871-4f13-84a4-4243048f66d6",
-      "VDDD Linreg"
-    ],
-    [
-      "63358803-d43b-4aec-8a20-c233ab97d197",
-      "Radio Module"
-    ],
-    [
-      "8f55ef10-452a-430a-807d-2e6e41b4b8f7",
-      "CAN Transciever"
-    ],
-    [
-      "a157da69-e8fe-4b49-9cb0-61544ea7d730",
-      "SD Card Adaptor"
-    ],
-    [
-      "5d63a622-b722-48aa-b91c-25923bed6681",
-      "Serial Programming Interface"
-    ],
-    [
-      "ca5454c5-eccd-4145-81b8-e1fa91a015cd",
-      "Circuit Protection"
     ]
   ],
   "text_variables": {}
