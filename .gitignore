@@ -39,3 +39,4 @@ sdkconfig*
 **/bom
 pcb/production/*
 pcb/fabrication-toolkit-options.json
+**/fab
